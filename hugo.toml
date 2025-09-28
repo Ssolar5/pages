@@ -1,0 +1,4 @@
+baseURL = 'https://ssolar5.pages.dev/'
+languageCode = 'en-us'
+title = 'Benjamin Alford'
+theme = 'typo'
