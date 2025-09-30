@@ -1,4 +1,61 @@
+# Derived from <https://github.com/tomfran/tomfran.github.io/blob/5b2cd68d9faf3eada7fab30350f16e11db589d90/hugo.toml>.
+
 baseURL = 'https://ssolar5.pages.dev/'
 languageCode = 'en-us'
-title = 'Benjamin Alford'
+title = 'Ssolar5'
 theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Home meta
+description = "Ssolar5 personal website."
+
+# Theme appearance
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Main page; Markdown
+homeIntroTitle = "Hi! My name is Benjamin Alford."
+# homeIntroContent = """
+# I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
+# I am interested in a various topics, including algorithms, distributed systems, databases, and information retrieval. \\
+# Feel free to read [about myself](/about) or to look at my [posts](/posts).
+# """
+homeIntroContent = """
+I am a student at [UT San Antonio](https://www.utsa.edu) who is studying
+Computer Science.
+I enjoy reading about niche and/or older progamming languages and computing
+platforms in my spare time, as well as whatever else I find that interests
+me.
+I am currently focusing on computational biology as a member of
+[SyrinxInformatics](https://github.com/SyrinxInformatics).
+"""
+
+singleDateFormat = '2 Jan 2006'
+
+# Listings
+paginationSize = 100
+listSummaries = true
+listDateFormat = '02 Jan 2006'
+
+showFooter = false
+
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "~"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/Ssolar5"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/benjaminalford-ssolar5/"
+
+[markup]
+[markup.highlight]
+style = 'bw'
