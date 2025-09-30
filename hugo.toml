@@ -49,12 +49,20 @@ showCurrentPage = true
 home = "~"
 
 [[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/benjaminalford-ssolar5/"
+
+[[params.social]]
 name = "github"
 url = "https://github.com/Ssolar5"
 
 [[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/benjaminalford-ssolar5/"
+name = "gitlab"
+url = "https://gitlab.com/Ssolar5"
+
+[[params.social]]
+name = "codeberg"
+url = "https://codeberg.org/ssolar5"
 
 [markup]
 [markup.highlight]
